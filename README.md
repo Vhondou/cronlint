@@ -10,16 +10,17 @@ It also detects CRLF (Windows-style) line endings and misformatted entries.
 ## 🧭 Features
 
 ✅ Validates **field count** (`min hr dom mon dow USER COMMAND`)  
-✅ Validates value ranges for all time fields (minute, hour, day, month, weekday)
 ✅ Supports **@special** keywords (`@reboot`, `@daily`, `@weekly`, etc.)  
 ✅ Checks **time field syntax** (lists, ranges, steps, month/day names)  
+✅ Validates **value ranges** for all time fields (`minute`, `hour`, `day`, `month`, `weekday`)  
 ✅ Verifies **USER field**
-  - must match a valid username pattern (`^[A-Za-z_][A-Za-z0-9_-]*[$]?$`)
-  - must exist on the system (`getent passwd` or `/etc/passwd`)
-    
+- must match a valid username pattern (`^[A-Za-z_][A-Za-z0-9_-]*[$]?$`)
+- must exist on the system (`getent passwd` or `/etc/passwd`)
+
 ✅ Detects **Windows line endings (`CRLF`)**  
 ✅ Warns if file **does not end with newline**  
 ✅ Ignores **blank lines**, **comments**, and **environment variable assignments**
+
 
 ---
 
