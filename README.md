@@ -27,7 +27,7 @@ It also detects CRLF (Windows-style) line endings and misformatted entries.
 Clone the repository and make the script executable:
 
 ```bash
-git clone https://github.com/<your-username>/cronlint.git
+git clone https://github.com/alphapialpha/cronlint.git
 cd cronlint
 chmod +x cronlint.sh
 ```
