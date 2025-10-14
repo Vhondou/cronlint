@@ -55,7 +55,7 @@ BEGIN {
   val_hour = "(" "*" "|" num_hour ")"
   val_dom = "(" "*" "|" num_dom ")"
   val_mon = "(" "*" "|" num_mon "|" monName ")"
-  val_dow = "(" "*" "|" num_dow "|" dowName ")"
+  val_dow = "(" "*" "|" num_dow "(-" num_dow ")?|" dowName "(-" dowName ")? )"
 
   piece_min  = "(" val_min  ")(/" "[0-9]+" ")?"
   piece_hour = "(" val_hour ")(/" "[0-9]+" ")?"
