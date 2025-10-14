@@ -10,6 +10,7 @@ It also detects CRLF (Windows-style) line endings and misformatted entries.
 ## 🧭 Features
 
 ✅ Validates **field count** (`min hr dom mon dow USER COMMAND`)  
+✅ Validates value ranges for all time fields (minute, hour, day, month, weekday)
 ✅ Supports **@special** keywords (`@reboot`, `@daily`, `@weekly`, etc.)  
 ✅ Checks **time field syntax** (lists, ranges, steps, month/day names)  
 ✅ Verifies **USER field**
