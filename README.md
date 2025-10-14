@@ -58,13 +58,29 @@ cronlint /etc/crontab
 
 ### ✅ Valid Example
 
-**Valid Crontab:**
+**Valid Complex Crontab:**
 ```cron
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # Run daily backup as root
 0 3 * * * root /usr/local/bin/backup.sh
+
+# Every 10 minutes between 08:00–18:00, Monday–Friday
+*/10 8-18 * * mon-fri  root      /usr/local/bin/test.sh
+
+# At 03:15 on the 1st–10th of each month
+15 3 1-10 * *           dbadmin   /usr/local/bin/db_maintenance.sh
+
+# Every 5 minutes on weekends (Saturday and Sunday)
+*/5 * * * sat,sun       www-data  /usr/local/bin/refresh-cache
+
+# Every 30 minutes overnight (22:00–23:59 and 00:00–06:59)
+*/30 22-23,0-6 * * *    sysop     /usr/local/bin/nightly_task.sh
+
+# Every hour on the 1st and 15th during March–June
+0 * 1,15 mar-jun *      report       /usr/local/bin/reportgen --monthly
+
 ```
 
 **Output:**
