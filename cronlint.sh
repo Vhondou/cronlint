@@ -51,11 +51,11 @@ BEGIN {
   num_mon = "([1-9]|1[0-2])"
   num_dow = "([0-7])"
 
-  val_min = "(" "*" "|" num_min ")"
-  val_hour = "(" "*" "|" num_hour ")"
-  val_dom = "(" "*" "|" num_dom ")"
-  val_mon = "(" "*" "|" num_mon "|" monName ")"
-  val_dow = "(" "*" "|" num_dow "(-" num_dow ")?|" dowName "(-" dowName ")? )"
+  val_min = "(" "*" "|" num_min "(-" num_min ")?" ")"
+  val_hour = "(" "*" "|" num_hour "(-" num_hour ")?" ")"
+  val_dom = "(" "*" "|" num_dom "(-" num_dom ")?" ")"
+  val_mon = "(" "*" "|" num_mon "(-" num_mon ")?" "|" monName "(-" monName ")?" ")"
+  val_dow = "(" "*" "|" num_dow "(-" num_dow ")?" "|" dowName "(-" dowName ")?" ")"
 
   piece_min  = "(" val_min  ")(/" "[0-9]+" ")?"
   piece_hour = "(" val_hour ")(/" "[0-9]+" ")?"
