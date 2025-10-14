@@ -58,6 +58,7 @@ cronlint /etc/crontab
 
 ### ✅ Valid Example
 
+**Valid Crontab:**
 ```cron
 SHELL=/bin/bash
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
@@ -71,8 +72,22 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 OK: no errors.
 ```
 
-### ❌ Invalid Example
+### ❌ Invalid Examples
 
+**Example 1: Erroneous Schedule Fields**
+```cron
+43 24 20 13 7 root cat /etc/crontab
+```
+
+**Output:**
+```
+ERROR: hour field invalid: 24
+ERROR: month field invalid: 13
+Line 22: ERROR: invalid schedule fields.
+Found 1 error(s).
+```
+
+**Example 2: No User Name or Invalid User Name**
 ```cron
 5 4 23 11 5 cat /etc/crontab
 ```
