@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 # ------------------------------------------------------------------------------
 # cronlint.sh — validate system crontab-like files (e.g. /etc/crontab)
+# https://github.com/alphapialpha/cronlint
 # Copyright (c) 2025 André P. Appel
 # Licensed under the MIT License. See LICENSE file for details.
 # ------------------------------------------------------------------------------
